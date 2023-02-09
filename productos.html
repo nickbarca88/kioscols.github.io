@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiosco Hermanos Cari</title>
+    <link rel="stylesheet" type="text/css" href="css/productos.css">
+    <script src="https://kit.fontawesome.com/989b96af03.js" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.2.1.js"></script>
+<body>
+    <header class="main-header">
+        <div class="container container--flex">
+          <div class="main-header__container">
+            <h1 class="main-header__title">Kiosco Los Hermanos</h1>
+            <span class="icon-menu" id="btn-menu"><i class="fas fa-bars"></i></span>
+            <nav class="main-nav" id="main-nav">
+              <ul class="menu">
+                <li class="menu__item"><a href="index.html" class="menu__link">HOME</a></li>
+                <li class="menu__item"><a href="productos.html" class="menu__link">PRODUCTOS</a></li>
+                <li class="menu__item"><a href="bebidas.html" class="menu__link">BEBIDAS</a></li>
+                <li class="menu__item"><a href="golosinas.html" class="menu__link">GOLOSINAS</a></li>
+                <li class="menu__item"><a href="otros.html" class="menu__link">OTROS</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="main-header__container">
+            <span class="main-header__txt">NUESTRO NUMERO</span>
+            <p class="main-header__txt"><i class="fa-solid fa-phone"></i> Cel 1139390970</p>
+          </div>
+          <div class="main-header__container">
+            <a href="" class="main-header__link"><i class="fa-solid fa-house"></i></i></a>
+            <a href="" class="main-header__btn">Jose C. Paz 4089</a>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+
+          <input type="radio" id="TODOS" name="categories" value="TODOS" checked>
+        <input type="radio" id="almacen" name="categories" value="HTML">
+        <input type="radio" id="galletas" name="categories" value="CSS">
+        <input type="radio" id="frescos" name="categories" value="JS">
+        <input type="radio" id="limpieza" name="categories" value="PHP">
+
+
+        <div class="container-category">
+            <label for="TODOS">Todos</label>
+            <label for="almacen">Almacen</label>
+            <label for="galletas">Galletitas</label>
+            <label for="frescos">Frescos</label>
+            <label for="limpieza">Limpieza y Perfumeria</label>
+        </div>
+
+          <section class="container-products">
+            <div class="product" data-category="frescos">
+              <img src="images/leche.jpg" alt="" class="product__img">
+              <div class="product__description">
+                <h3 class="product__title">Leche entera y descremada</h3>
+                <span class="product__price">Disponible</span>
+              </div>
+            </div>
+            <div class="product" data-category="limpieza">
+              <img src="images/papel-coloso.jpg" alt="" class="product__img">
+              <div class="product__description">
+                <h3 class="product__title">Papel higienico x4</h3>
+                <span class="product__price">Disponible</span>
+              </div>
+            </div>
+            <div class="product" data-category="limpieza">
+              <img src="images/poett.jpg" alt="" class="product__img">
+              <div class="product__description">
+                <h3 class="product__title">Limpiador Líquido Aromatizante POETT 900 Ml</h3>
+                <span class="product__price">Disponible</span>
+              </div>
+            </div>
+            <div class="product" data-category="almacen">
+              <img src="images/fideos.jpg" alt="" class="product__img">
+              <div class="product__description">
+                <h3 class="product__title">Fideos Marolio</h3>
+                <span class="product__price">Disponible</span>
+              </div>
+            </div>
+            <div class="product" data-category="almacen">
+              <img src="images/308.jpg" alt="" class="product__img">
+              <div class="product__description">
+                <h3 class="product__title">Fideos 308 Nido N°1-2 Paq 500 Grm</h3>
+                <span class="product__price">Disponible</span>
+              </div>
+            </div>
+            <div class="product" data-category="almacen">
+              <img src="images/morixe.png" alt="" class="product__img">
+              <div class="product__description">
+                <h3 class="product__title">Harina De Trigo Morixe 000 Paquete 1 Kg</h3>
+                <span class="product__price">Disponible</span>
+              </div>
+            </div>
+            <div class="product" data-category="almacen">
+              <img src="images/cañuelas.jpg" alt="" class="product__img">
+              <div class="product__description">
+                <h3 class="product__title">Harina De Trigo CAÑUELAS 000 Paquete 1 Kg</h3>
+                <span class="product__price">No Disponible</span>
+              </div>
+            </div>
+            <div class="product" data-category="almacen">
+              <img src="images/blancaflor.jpg" alt="" class="product__img">
+              <div class="product__description">
+                <h3 class="product__title">Harina Leudante BLANCAFLOR Paquete 1 Kg</h3>
+                <span class="product__price">Disponible</span>
+              </div>
+            </div>
+            <div class="product" data-category="almacen">
+              <img src="images/pureza.jpg" alt="" class="product__img">
+              <div class="product__description">
+                <h3 class="product__title">Premezcla Para Pizza PUREZA Leudante Paquete 1 Kg</h3>
+                <span class="product__price">Disponible</span>
+              </div>
+            </div>
+            <div class="product" data-category="almacen">
+              <img src="images/colonial.png" alt="" class="product__img">
+              <div class="product__description">
+                <h3 class="product__title">Dulce de leche La Serenisima Estilo Colonial</h3>
+                <span class="product__price">Disponible</span>
+              </div>
+            </div>
+            <div class="product" data-category="galletitas">
+              <img src="images/trio.JPG" alt="" class="product__img">
+              <div class="product__description">
+                <h3 class="product__title">Galletitas Trio</h3>
+                <span class="product__price">Disponible</span>
+              </div>
+            </div>
+            <div class="product" data-category="galletitas">
+              <img src="images/don.webp" alt="" class="product__img">
+              <div class="product__description">
+                <h3 class="product__title">Bizcochitos Don Satur agridulces 200gr</h3>
+                <span class="product__price">Disponible</span>
+              </div>
+            </div>
+            <div class="product" data-category="galletitas">
+              <img src="images/saladas.jpg" alt="" class="product__img">
+              <div class="product__description">
+                <h3 class="product__title">Bizcochitos Don Satur saladas 200gr</h3>
+                <span class="product__price">Disponible</span>
+              </div>
+            </div>
+            <div class="product" data-category="galletitas">
+              <img src="images/bagley.webp" alt="" class="product__img">
+              <div class="product__description">
+                <h3 class="product__title">Galletitas surtido Bagley 390gr</h3>
+                <span class="product__price">Disponible</span>
+              </div>
+            </div>
+            <div class="product" data-category="galletitas">
+              <img src="images/diversion.jpg" alt="" class="product__img">
+              <div class="product__description">
+                <h3 class="product__title">Galletitas surtido Diversion 390gr</h3>
+                <span class="product__price">Disponible</span>
+              </div>
+            </div>
+            <div class="product" data-category="galletitas">
+              <img src="images/terra.webp" alt="" class="product__img">
+              <div class="product__description">
+                <h3 class="product__title">Galletitas surtido terrabusi 410gr</h3>
+                <span class="product__price">Disponible</span>
+              </div>
+            </div>
+            <div class="product" data-category="galletitas">
+              <img src="images/anillos.jpg" alt="" class="product__img">
+              <div class="product__description">
+                <h3 class="product__title">Galletitas Terrabusi anillos 300gr</h3>
+                <span class="product__price">Disponible</span>
+              </div>
+            </div>
+            <div class="product" data-category="galletitas">
+              <img src="images/9deoro.png" alt="" class="product__img">
+              <div class="product__description">
+                <h3 class="product__title">9 de oro bizcochos 200gr</h3>
+                <span class="product__price">Disponible</span>
+              </div>
+            </div>
+            <div class="product" data-category="galletitas">
+              <img src="images/coro.png" alt="" class="product__img">
+              <div class="product__description">
+                <h3 class="product__title">Mini Coronitas Fachitas frambuesa 140gr</h3>
+                <span class="product__price">Disponible</span>
+              </div>
+            </div>
+            <div class="product" data-category="galletitas">
+              <img src="images/matero.png" alt=""  width= 200px; height= 100px class="product__img">
+              <div class="product__description">
+                <h3 class="product__title">Hojalmar Snack Matero azucarado 180gr</h3>
+                <span class="product__price">Disponible</span>
+              </div>
+            </div>
+            <div class="product" data-category="galletitas">
+              <img src="images/palmeritas.jpg" alt="" class="product__img">
+              <div class="product__description">
+                <h3 class="product__title">Palmeritas Mini Savara 200gr</h3>
+                <span class="product__price">Disponible</span>
+              </div>
+            </div>
+            <div class="product" data-category="almacen">
+              <img src="images/carbon.jpg" alt="" class="product__img">
+              <div class="product__description">
+                <h3 class="product__title">Carbon</h3>
+                <span class="product__price">Disponible</span>
+              </div>
+            </div>
+           </section> 
+        </main>
+        <footer class="main-footer">
+            <div class="footer__section1">
+              <h2 class="footer__title">Sobre nosotros</h2>
+              <p class="footer__txt">Con horario de 8 a 23 horas, contamos con variedad de productos, ya sea para cocinar, bebidas, helados, cigarrillos, golosinas y snacks. Tambien contamos con servicio de Carga vitual tanto para Sube, Antina, DirecTV y empresas de celular.</p>
+            </div>
+            <div class="footer__section">
+              <h2 class="footer__title">Direccion </h2>
+              <p class="footer__txt">Jose C. Paz 4089, entre Bramante y Mateo Bootz, Localidad de Jose C. Paz, Buenos Aires</p>
+            </div>
+            <div class="footer__section">
+              <h2 class="footer__title">Contacto</h2>
+              <p class="footer__txt">Telefono: 1139390970</p>
+            </div>
+        </footer> 
+        <script src="js/index.js"></script>
+</body>
+</html>
